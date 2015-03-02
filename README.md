@@ -27,8 +27,8 @@ The following information is passed along by the webhook in the raw body of the 
 
 ```json
     {
-  "user" : "username specified in ifttt",
-  "password" : "password specified in ifttt",
+  "user" : "user ID specified in ifttt",
+  "pass" : "password specified in ifttt",
   "title" : "title generated for the recipe in ifttt",
   "categories" : ["array","of","categories","passed"]
     }
